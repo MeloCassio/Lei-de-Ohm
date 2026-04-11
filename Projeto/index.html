@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei de Ohm</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<header class="Cabeçalho">
+<h1> Lei de Ohm</h1>
+</header>
+<h2> O que deseja calcular?</h2>
+
+
+<button class="Botão1"> Calcular Tensão</button>
+<button class="Botão2"> Calcular Corrente elétrica</button>
+<button class="Botão3"> Calcular Resistência </button>
+
+<div id="tensao" style="display:none;">
+    <input type="number" id="r" placeholder="Resistência (R)">
+    <input type="number" id="i" placeholder="Corrente (I)">
+    <button onclick="calcTensao()">Calcular</button>
+    <p id="resT"></p>
+</div>
+
+
+<div id="corrente" style="display:none;">
+    <input type="number" id="v2" placeholder="Tensão (V)">
+    <input type="number" id="r2" placeholder="Resistência (R)">
+    <button onclick="calcCorrente()">Calcular</button>
+    <p id="resC"></p>
+</div>
+
+
+<div id="resistencia" style="display:none;">
+    <input type="number" id="v3" placeholder="Tensão (V)">
+    <input type="number" id="i3" placeholder="Corrente (I)">
+    <button onclick="calcResistencia()">Calcular</button>
+    <p id="resR"></p>
+</div>
+
+<footer class="rodape">
+    <p class="rodape-c">© 2026 Cassio, Geovane, Leonardo, Ygor. Todos os direitos reservados.</p>
+</footer>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

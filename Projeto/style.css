@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.Botão1 {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Botão2{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Botão3{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Cabeçalho{
+    padding: 20px;
+    background-color: lightblue;
+
+}
+
+.rodape-c {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
