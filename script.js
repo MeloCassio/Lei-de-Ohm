@@ -28,7 +28,7 @@ btn3.onclick = function() {
 function calcTensao() {
     let r = parseFloat(document.getElementById("r").value);
     let i = parseFloat(document.getElementById("i").value);
-    document.getElementById("resT").innerText = "Resultado: " + (r * i) + "V" ;
+    document.getElementById("resT").innerText = "A Tensão é de: " + (r * i) + "V" ;
 }
 
 function calcCorrente() {
@@ -38,7 +38,7 @@ function calcCorrente() {
     if (r === 0) {
         document.getElementById("resC").innerText = "Não é possível dividir por zero";
     } else {
-        document.getElementById("resC").innerText = "Resultado: " + (v / r) + "A" ;
+        document.getElementById("resC").innerText = "A Corrente é de: " + (v / r) + "A" ;
     }
 }
 
@@ -49,7 +49,7 @@ function calcResistencia() {
     if (i === 0) {
         document.getElementById("resR").innerText = "Não é possível dividir por zero";
     } else {
-        document.getElementById("resR").innerText = "Resultado:"  + (v / i) + "Ω" ;
+        document.getElementById("resR").innerText = "A Resistência é de:"  + (v / i) + "Ω" ;
     }
 }
 
