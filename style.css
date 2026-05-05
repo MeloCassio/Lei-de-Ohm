@@ -49,3 +49,22 @@ body{
     justify-content: center;
     display: flex;
 }
+
+/* Adicionei */
+
+
+.Botão4{
+    cursor: pointer;
+    display: absolute;
+    top: 6%;
+    left: 86%;
+    background-color: rgb(8, 30, 155);
+    position: absolute;
+    font-size: 17px;
+    color: rgb(135, 132, 132);
+    padding: 10px 20px;
+    border: 2px solid;
+    text-decoration: none; 
+    border-radius: 8px;
+    
+}
